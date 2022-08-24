@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600&family=Rubik:ital,wght@0,300;0,500;1,300;1,400;1,500&display=swap');
+.course{
+    padding-top:60px;
+    padding-bottom:100px;
+}
+.item-menu{
+    text-align: center;
+    margin:30px auto;
+    margin-bottom:40px;
+}
+.item-menu ul{
+    list-style-type: none;
+}
+.item-menu ul li{
+    padding:12px 15px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'rubit', sans-serif;
+    font-weight: 700;
+}
+.item-details .item{
+    padding:0;
+    margin:0;
+}
+.course-item{
+    float: left;
+    padding: 30px;
+    border: 1px solid #dfe9eb;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-right:30px;
+    margin-bottom:40px;
+    
+}
+.course-item .img-part img{
+    float: left;
+    width:100%;
+    border-radius: 10px;
+
+}
+.course-item .content-part{
+    margin-top:50px;
+}
+.course-item .content-part .meta-part{
+    list-style-type: none;
+    margin-bottom:17px;
+    display: inline-block;
+    margin:0;
+    padding:0;
+    margin-top:15px;
+}
+.course-item .content-part .meta-part li{
+    display: inline-block;
+    margin-right:15px
+}
+.course-item .content-part .meta-part li a{
+    color:#111111;
+    text-decoration: none;
+}
+.course-item .content-part .meta-part li .price{
+    display: inline-block;
+    padding: 3px 20px;
+    color: #ffffff;
+    font-weight: 500;
+    background: #ff5421;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.course-item .content-part .title{
+    margin-top:10px;
+}
+.course-item .content-part .title a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 26px;
+    color: #111111;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.course-item .content-part .title a:hover{
+    color:#ff5421;
+}
+.course-item .content-part .bottom-part{
+    margin-top:20px;
+    float: left;
+}
+.course-item .content-part .bottom-part .info{
+    display: inline-block;
+}
+.course-item .content-part .bottom-part .info ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+.course-item .content-part .bottom-part .info ul li{
+    display:inline-block;
+    margin-right:10px;
+}
+.course-item .content-part .bottom-part .info .rating i{
+    color: #fcb903;
+}
+.course-item .content-part .bottom-part .btn-part{
+    display:inline-block;
+    margin-top:10px;
+    text-align: center;
+}
+.course-item .content-part .bottom-part .btn-part a{
+    border: 1px solid #f2f2f2;
+    background: transparent;
+    width:50px;
+    text-align: center;
+    height:40px;
+    margin-left:123px;
+}
+.course-item .content-part .bottom-part .btn-part a:hover{
+    background-color: #ff5421;
+}
+.course-item .content-part .bottom-part .btn-part a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.course-item .content-part .bottom-part .btn-part a i{
+    margin-bottom: 5px;
+    margin-top:3px;
+}
+.course-item .content-part .bottom-part .info ul li i{
+    margin-right:3px;
+}
+
+.course-item .content-part .bottom-part .btn-part a:hover i{
+    color:white;
+
+}
+.course-item .content-part .bottom-part .btn-part a i{
+    color:#111111;
+    font-size: 20px;
+} 
+.course .pagination {
+    justify-content: center;
+    width: 17%;
+    height:60px;
+    line-height: 41px;
+    margin: 20px auto;
+    box-shadow: 0px 8px 26px 0px rgba(0, 0, 0, 0.1);
+      
+}
+.course .pagination li{
+    margin-bottom:20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top:5px;
+      
+}
+.course .pagination li a{
+    border-style:none;
+}
+.course .pagination li a{
+    background-color:transparent;
+    color: #111111;
+}
+.course .pagination li a:focus{
+    box-shadow:none;
+    border-style:none;
+    outline-style: none;
+}
+.course .pagination li a:hover{
+    color:#ff5421;
+}
+.course .pagination li a.active{
+    color:#ff5421;
+}
+.course .pagination span{
+    width:5px;
+    height:5px;
+    background-color: #ff5421;
+    margin-top:27px;
+    border-radius: 50%;
+}
+.course .pagination span.last-child{
+    visibility: hidden;
+}
+.active{
+    color:#ff5421;
+}

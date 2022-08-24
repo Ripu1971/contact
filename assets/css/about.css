@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600&family=Rubik:ital,wght@0,300;0,500;1,300;1,400;1,500&display=swap');
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 0;
+  }
+.about{
+    padding-top:100px;
+    padding-bottom:70px;
+}
+.about .about-inner .section-title .sub-title{
+    color:#ff5421;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height:26px;
+    margin-bottom:8px;
+    font-family: 'Rubik', sans-serif;
+}
+.about .about-inner .section-title .title{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom:21px;
+    color:black;
+    font-family: 'Nunito', sans-serif;
+}
+.about .about-inner .section-title .desc{
+    font-size: 18px;
+    line-height:30px;
+    color:#505050;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400px;
+}
+.about .counter-item{
+    background: #fbf8cc;
+    text-align: center;
+    padding:34px 15px;
+    margin-right:20px;
+    border-radius:7px;
+}
+.about .counter-item.two{
+    background: #e9fbd5;
+}
+.about .counter-item.three{
+    background: #dcf1fd;
+}
+.about .counter-item .counter{
+    font-size: 47px;
+    margin-top: 10px;
+    color:black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+
+}
+.about .counter-item .title{
+    font-size: 25px;
+    color:black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+.about-video{
+    padding-top:100px;
+    padding-bottom:100px
+}
+.about-video img{
+    width:100%;
+    height:auto;
+    position:relative;
+}
+.about-video .popup-video{
+    position: absolute;
+    top:-45%;
+}
+.blog{
+    padding-top:85px;
+    padding-bottom:100px;
+    padding-right:0;
+    padding-left:0;
+}
+.blog .title-section{
+    margin-bottom:60px;
+    text-align: center;
+}
+.blog .blog-item{
+    border: 1px solid #c7e8f0;
+    margin-bottom:30px;
+}
+.blog .blog-item .blog-image-part{
+    float: left;
+    overflow: hidden;
+    height:260px;
+    width:100% !important;
+}
+.blog .blog-item .blog-image-part img{
+    width:100%;
+    height: 100%;
+    transform: scale(1);
+    transition: all 1s;
+}
+.blog .blog-item:hover .blog-image-part img{
+    transform: scale(1.07);
+}
+.blog .blog-item .blog-content-part{
+    padding:33px 62px 34px;
+}
+.blog .blog-item .blog-content-part .blog-meta{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    margin-bottom:20px;
+}
+.blog .blog-item .blog-content-part .blog-meta li{
+    display: inline-block;
+    margin-right:30px;
+    color: #868484;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+}
+.blog .blog-item .blog-content-part .title{
+    margin-bottom:20px;
+}
+.blog .blog-item .blog-content-part .title a{
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700 !important;
+    color:#111111;
+    font-family: 'Nunito', sans-serif;
+}
+.blog .blog-item .blog-content-part .title a:hover{
+    color:#ff5421;
+}
+.blog .blog-item .blog-content-part .btn-part{
+    padding:0;
+    margin:0;
+    float: left;
+}
+.blog .blog-item .blog-content-part .btn-part a{
+    padding:0;
+    margin:0;
+    background-color: transparent;
+    color:black;
+    text-decoration: none;
+}
+.blog .blog-item .blog-content-part .btn-part a i{
+    margin-left:5px;
+    transition: all 0.3s;
+}
+.blog .blog-item .blog-content-part .btn-part a:hover{
+    color:#ff5421;
+}
+.blog .blog-item .blog-content-part .btn-part a:hover i{
+    margin-left:10px;
+    color:#ff5421;
+}
+.blog .event{
+    margin:0;
+    padding:0;
+    margin-left:30px;
+    margin-bottom:145px;
+}
+
+.blog .event .date-part{
+   background-color: #dcf1fd;
+   float: left;
+   width:25%;
+   text-align: center;
+   padding:30px 2px;
+}
+.blog .event .two{
+    background: #eaddf8;
+}
+.blog .event .three{
+    background: #f8f6d1;
+}
+.blog .event .four{
+    background-color: #dcf1fd;
+}
+.blog .event .date-part .month{
+    margin-bottom:10px;
+    color:#505050;
+}
+.blog .event .date-part .date{
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: #21a7d0;
+    font-weight: 700;
+    text-align: center;
+}
+.blog .event .content-part{
+    float:left;
+    width:70%;
+    margin-left:20px;
+
+}
+.blog .event .content-part .categoris a{
+    color:#505050; 
+    text-decoration: none;
+}
+.blog .event .content-part .categoris .title a{
+    color:#111111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height:31px;
+    transition: all 0.2s;
+}
+.blog .event .content-part .categoris .title a:hover{
+    color:#ff5421;
+}

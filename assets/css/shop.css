@@ -1,0 +1,114 @@
+.shop{
+    padding-top:130px;
+    padding-bottom:80px;
+}
+.shop .result-count{
+    font-size: 15px;
+    color: #938e8e;
+    line-height:26px;
+}
+.shop .form{
+    float: right;
+    font-size: 15px;
+    color: #505050;
+    font-weight: 400;
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.shop .product-list{
+    margin-top:30px;
+}
+.shop .product-list .product-image{
+    position: relative;
+}
+.shop .product-list .product-image img{
+    width:100%;
+}
+
+.shop .product-list .product-image .overlay a i{
+    position: absolute;
+    right: 13px;
+    bottom:150px;
+    background: transparent;
+    opacity: 0;
+    background-color: white;
+    transition: 0.5s;
+    padding:10px 10px;
+    font-size: 25px;
+    visibility: hidden;
+    opacity: 0;
+}
+.shop .product-list .product-image:hover .overlay a i{
+    bottom:13px;
+    visibility: visible;
+    opacity: 1;
+    color:black;
+}
+.shop .product-list .product-content{
+    text-align: center;
+    margin-top:20px;
+    padding-bottom:30px;
+}
+.shop .product-list .product-content .product-title{
+    margin: 0;
+    font-size: 22px;
+    line-height: 50px;
+    color: #505050;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+.shop .product-list .product-content .product-title:hover{
+    color:#ff5421;
+}
+.shop .product-list .product-content .product-title a{
+    font-size: 22px;
+    color:#111111;
+    font-weight: 600px;
+    font-family: 'Nunito', sans-serif;
+}
+.shop .product-list .product-content .price{
+    font-size: 20px;
+    line-height: 30px;
+    color: #21a7d0;
+    font-weight: 700;
+    margin: 0;
+    color:#ff5421;
+}
+.pagination{
+    padding-top:-30px;
+    margin-bottom:100px;
+    justify-content: center;
+    margin-right:45%;
+    margin-left:45%;
+    padding:10px 0;
+    border:1px solid rgb(212, 209, 209);
+}
+.pagination .page-item{
+    border-right: 3px solid #E6E6E6;
+    margin-left:10px;
+}
+.pagination li a {
+    margin-right:10px;
+  }
+.pagination .page-item:last-child{
+    border-right-style: none;
+}
+.pagination .page-item:hover a{
+    background-color: transparent;
+}
+.pagination .page-item .active{
+    color:#ff5421;
+}
+.pagination li a{
+    border-style:none;
+}
+.pagination li a:hover{
+    color:#ff5421;
+}
+.pagination li a:focus{
+    box-shadow:none;
+    outline-style: none;
+    border-style:none;
+}
